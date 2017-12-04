@@ -4,7 +4,7 @@ MAINTAINER song.jin
 
 RUN apk update
 RUN apk add --no-cache build-base
-RUN pip install pandas
+RUN pip install --no-cache-dir pandas
 
 ADD . /app/
 
